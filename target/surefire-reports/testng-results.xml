@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BVT Test Suite" duration-ms="11282" started-at="2016-05-04T17:50:56Z" finished-at="2016-05-04T17:51:07Z">
+    <groups>
+      <group name="reg">
+        <method signature="TestSample.exercise()[pri:0, instance:[TestSample passed=0 failed=0 skipped=0]]" name="exercise" class="com.applause.auto.test.TestSample"/>
+      </group> <!-- reg -->
+    </groups>
+    <test name="Exercise" duration-ms="11282" started-at="2016-05-04T17:50:56Z" finished-at="2016-05-04T17:51:07Z">
+      <class name="com.applause.auto.test.TestSample">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:[TestSample passed=0 failed=0 skipped=0]]" name="testSetup" is-config="true" duration-ms="16" started-at="2016-05-04T14:50:56Z" finished-at="2016-05-04T14:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="exercise()[pri:0, instance:[TestSample passed=0 failed=0 skipped=0]]" name="exercise" duration-ms="10344" started-at="2016-05-04T14:50:56Z" description="basic test of the app com.wholefoods.wholefoodsmarket" finished-at="2016-05-04T14:51:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exercise -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:[TestSample passed=0 failed=0 skipped=0]]" name="afterClass" is-config="true" duration-ms="922" started-at="2016-05-04T14:51:06Z" finished-at="2016-05-04T14:51:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.applause.auto.test.TestSample -->
+    </test> <!-- Exercise -->
+  </suite> <!-- BVT Test Suite -->
+</testng-results>

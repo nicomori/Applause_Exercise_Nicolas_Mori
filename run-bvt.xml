@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BVT Test Suite" parallel="false">
+	<test name="Exercise" id="1">
+		<classes>
+			<class name="com.applause.auto.test.TestSample">
+				<methods>
+					<include name="exercise" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
